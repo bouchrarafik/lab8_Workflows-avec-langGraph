@@ -28,11 +28,9 @@ uv add langgraph langchain-core langchain-ollama typing-extensions ipython
 
 lab8_Workflows_with_langGraph/
 ├── hello_graph.py
-├── workflows/            # workflows LangGraph
-├── images/               # captures (1.png → 6.png)
+├── workflows/
+├── images/
 └── README.md
-
-
 
 ▶ Exécution
 PARTIE 1 — Hello Graph
