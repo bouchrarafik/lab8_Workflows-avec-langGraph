@@ -64,14 +64,13 @@ uv run --active python workflows/workflow_loop.py
 ## Concepts étudiés
 
 ### Partie	Concept
-```
-1	StateGraph, node simple
-2	Workflow séquentiel
-3	Reducer avec Annotated
-4	Messages + état dynamique
-5	Conditions dynamiques
-6	Boucle + arrêt automatique
-```
+
+1.	StateGraph, node simple
+2.	Workflow séquentiel
+3.	Reducer avec Annotated
+4.	Messages + état dynamique
+5.	Conditions dynamiques
+6.	Boucle + arrêt automatique
 
 ## Captures d’exécution
 
