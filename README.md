@@ -23,26 +23,17 @@ uv venv
 .venv\Scripts\activate
 uv add langgraph langchain-core langchain-ollama typing-extensions ipython
 
-📂 Structure du projet
-lab8_Workflows avec langGraph/
-│
+## 📂 Structure du projet
+
+
+lab8_Workflows_with_langGraph/
 ├── hello_graph.py
-├── workflows/
-│   ├── two_step_workflow.py
-│   ├── reducers_demo.py
-│   ├── message_state.py
-│   ├── conditional_workflow.py
-│   └── workflow_loop.py
-│
-├── images/
-│   ├── part1_hello_graph.png
-│   ├── part2_two_step_workflow.png
-│   ├── part3_reducers.png
-│   ├── part4_message_state.png
-│   ├── part5_conditional.png
-│   └── part6_workflow_loop.png
-│
+├── workflows/            # workflows LangGraph
+├── images/               # captures (1.png → 6.png)
 └── README.md
+
+
+
 ▶ Exécution
 PARTIE 1 — Hello Graph
 uv run --active python hello_graph.py
@@ -57,7 +48,7 @@ uv run --active python workflows/conditional_workflow.py
 PARTIE 6 — Workflow Loop
 uv run --active python workflows/workflow_loop.py
  Concepts étudiés
- 
+
 Partie	Concept
 1	StateGraph, node simple
 2	Workflow séquentiel
@@ -70,22 +61,22 @@ Partie	Concept
  Captures d’exécution
 
 ### PARTIE 1 — Hello Graph
-![Hello Graph](images/part1_hello_graph.png)
+![Hello Graph](images/1.png)
 
 ### PARTIE 2 — Two Step Workflow
-![Two Step Workflow](images/part2_two_step_workflow.png)
+![Two Step Workflow](images/2.png)
 
 ### PARTIE 3 — Reducers Demo
-![Reducers Demo](images/part3_reducers.png)
+![Reducers Demo](images/3.png)
 
 ### PARTIE 4 — Message State
-![Message State](images/part4_message_state.png)
+![Message State](images/4.png)
 
 ### PARTIE 5 — Conditional Workflow
-![Conditional Workflow](images/part5_conditional.png)
+![Conditional Workflow](images/5.png)
 
 ### PARTIE 6 — Workflow Loop
-![Workflow Loop](images/part6_loop.png)
+![Workflow Loop](images/6.png)
 
 
 Conclusion
